@@ -27,6 +27,13 @@ function draw()
     fill(255, 128, 250);
     stroke(255, 128, 250);
     circle(600, 450, 80);
+
+    fill(255, 0, 105);
+    stroke(255, 0, 105);
+    rect(570, 90, 50, 320);
+    rect(30, 90, 50, 320);
+    rect(90, 30, 475, 50);
+    rect(90, 420, 475, 50);
 }
 
 function take_snapshot()
